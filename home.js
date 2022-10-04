@@ -24,7 +24,7 @@ function createId(id){
     }
   }
  
-  if(window.location.href == "http://127.0.0.1:5501/index.html"){
+  if(window.location.href == "https://shoaibtahir-olx-application.netlify.app/index.html"){
     showAd()
   }
 
