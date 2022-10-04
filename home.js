@@ -24,7 +24,7 @@ function createId(id){
     }
   }
  
-  if(location.href == "http://127.0.0.1:5501/home.html"){
+  if(window.location.href == "http://127.0.0.1:5501/index.html"){
     showAd()
   }
 

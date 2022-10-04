@@ -36,7 +36,7 @@ function createAdd() {
   ads.push(new Ad(adTitle.value, description.value, price.value, image, id));
 
   localStorage.setItem("ads", JSON.stringify(ads));
-  alert("Your add has been posted Successfully", location.replace("/home.html"))
+  alert("Your add has been posted Successfully", location.replace("/index.html"))
 }
 
 form.addEventListener("submit", function (e) {

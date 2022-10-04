@@ -4,7 +4,6 @@ let adId = JSON.parse(localStorage.getItem("adId"))
 
 for (let i = 0; i < adData.length; i++) {
     if (adId == adData[i].id) {
-        console.log(adData[i])
         const adDetails = document.getElementById("ad-details");
         let detailsDiv = document.createElement("div");
         detailsDiv.innerHTML = `
